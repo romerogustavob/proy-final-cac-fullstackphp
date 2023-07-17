@@ -5,7 +5,7 @@
  $proyectos= $conexion->consultar("SELECT * FROM `proyectos`");
  ?>
 <!DOCTYPE html>
-<!-- saved from url=(0050)#formacion -->
+<!-- saved from url=(0050)#formacion  -->
 <html lang="es" class="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +21,7 @@
 <body> 
 
   <!-- HEADER -->
-  <header class="hidden lg:block text-white bg-general bg-opacity-70 backdrop-filter backdrop-blur-lg shadow-lg body-font fixed w-full z-50">
+  <header class="lg:block text-white bg-general bg-opacity-70 backdrop-filter backdrop-blur-lg shadow-lg body-font fixed w-full z-50">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <div class="flex items-center justify-center h-18">
         <label for="toggle" class="relative flex items-center justify-center h-10 w-28 cursor-pointer">
@@ -247,8 +247,8 @@
     </div>
 
   </footer>
-  <script src="/portfolio/js/app.js.descarga"></script>
-  <script src="/portfolio/js/form.js.descarga"></script>
-  <script src="/portfolio/js/darkmode.js.descarga"></script>
+  <script src="./portfolio/js/app.js.descarga"></script>
+  <script src="./portfolio/js/form.js.descarga"></script>
+  <script src="./portfolio/js/darkmode.js.descarga"></script>
 
 </body></html>
